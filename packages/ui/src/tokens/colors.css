@@ -1,0 +1,51 @@
+:root {
+    /* Brand */
+    --color-brand-primary: #0066cc;
+    --color-brand-primary-hover: #0052a3;
+    --color-brand-primary-subtle: #e6f0ff;
+  
+    /* Neutral */
+    --color-neutral-0: #ffffff;
+    --color-neutral-50: #f8f9fa;
+    --color-neutral-100: #f1f3f5;
+    --color-neutral-200: #e9ecef;
+    --color-neutral-300: #dee2e6;
+    --color-neutral-400: #ced4da;
+    --color-neutral-500: #adb5bd;
+    --color-neutral-600: #6c757d;
+    --color-neutral-700: #495057;
+    --color-neutral-800: #343a40;
+    --color-neutral-900: #212529;
+  
+    /* Semantic — light mode */
+    --color-bg-primary: var(--color-neutral-0);
+    --color-bg-secondary: var(--color-neutral-50);
+    --color-bg-tertiary: var(--color-neutral-100);
+    --color-text-primary: var(--color-neutral-900);
+    --color-text-secondary: var(--color-neutral-600);
+    --color-text-disabled: var(--color-neutral-400);
+    --color-border-default: var(--color-neutral-200);
+    --color-border-strong: var(--color-neutral-400);
+  
+    /* Status */
+    --color-success: #2d9e5f;
+    --color-success-subtle: #e6f7ee;
+    --color-warning: #d97706;
+    --color-warning-subtle: #fef3cd;
+    --color-error: #dc2626;
+    --color-error-subtle: #fde8e8;
+    --color-info: #0066cc;
+    --color-info-subtle: #e6f0ff;
+  }
+  
+  [data-theme="dark"] {
+    /* Semantic — dark mode overrides only */
+    --color-bg-primary: var(--color-neutral-900);
+    --color-bg-secondary: var(--color-neutral-800);
+    --color-bg-tertiary: var(--color-neutral-700);
+    --color-text-primary: var(--color-neutral-50);
+    --color-text-secondary: var(--color-neutral-400);
+    --color-text-disabled: var(--color-neutral-600);
+    --color-border-default: var(--color-neutral-700);
+    --color-border-strong: var(--color-neutral-500);
+  }
